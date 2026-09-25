@@ -57,7 +57,191 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
+/****** Header ***********/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
 
+.logo img {
+    width: 100%;
+    height: auto;
+    max-width: 61.09px;
+    margin-top: 30px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 14px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color:#000000;
+    margin-top: 14px;
+}
+
+.nav-list a:hover {
+    color: #0065FC;
+    border-top: 2px solid var(--main-color) ;
+    padding-top: 35px;
+}
+
+/****** Trouver Hebergements ***********/
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    font-weight: 700;
+    color:#000000;
+    margin-bottom: 8px;
+}
+.section-subtitle p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 400;
+    color:#000000;
+    margin-bottom: 35px;
+}
+
+
+.localisation-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    width: 377px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.localisation-search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    width: 85px;
+}
+
+.localisation-search-icon i {
+    color: #000000;
+    font-size: 20px; 
+    padding-left: 5px;
+}
+
+.localisation-search-input {
+    border: none;
+    outline: none;
+    padding: 0;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+    flex-grow: 1;
+    text-align: left;
+    width: 100%;
+}
+
+.localisation-search-button {
+    background-color: #0065FC;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #0065FC;
+    padding: 8px 16px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.filters-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+}
+
+.filters-list {
+    font-size: 14px;
+    font-weight: 700;
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.filters-list li {
+display:flex;
+   align-items: center;
+   justify-content: center;
+   background-color: white;
+   padding: 4 19 4 19 ;
+   border-radius: 15px;
+   cursor: pointer;
+}
+
+.filters-list li i{
+   gap: 15px;
+}
+
+.filters-list button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 8px 16px;
+    border: 2px solid #D9D9D9;
+    border-radius: 15px;
+    gap: 15px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.filters-list button:hover {
+    background-color: #DEEBFF;
+}
+
+.info-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.info-bar i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #0065FC;
+}
+
+.resultats-subtitle-search {
+  margin: 0;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
