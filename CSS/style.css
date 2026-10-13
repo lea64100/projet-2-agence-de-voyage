@@ -97,7 +97,7 @@ header {
 .localisation-search {
   display: flex;
   justify-content: space-between;
-  border: 1px solid #f2f2f2;
+  border: 1px solid var(--main-bg-color);
   border-radius: 15px;
   width: 377px;
   overflow: hidden;
@@ -108,7 +108,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f2f2f2;
+  background-color: var(--main-bg-color);
   width: 85px;
 }
 
@@ -130,11 +130,11 @@ header {
 }
 
 .localisation-search-button {
-  background-color: #0065fc;
+  background-color: var(--main-color);
   color: white;
   font-size: 18px;
   font-weight: 700;
-  border: 1px solid #0065fc;
+  border: 1px solid var(--main-color);
   padding: 8px 16px;
   height: 100%;
   cursor: pointer;
@@ -182,7 +182,7 @@ header {
 }
 
 .filters-list button:hover {
-  background-color: #deebff;
+  background-color: var(--filter-bg-color);
 }
 
 .info-bar {
@@ -214,7 +214,7 @@ header {
 }
 
 .hebergements-and-populaires section {
-  background-color: #f2f2f2;
+  background-color: var(--main-bg-color);
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
@@ -370,7 +370,7 @@ header {
 /****** Footer ***********/
 
 footer {
-  background-color: #f2f2f2;
+  background-color: var(--main-bg-color);
   padding: 20px 30px;
 }
 
@@ -467,8 +467,8 @@ footer {
   }
 }
 
-/* Small devices (phones, less than 768px) */
-@media (max-width: 768px) {
+/* Small devices (phones, less than 767.98px) */
+@media (max-width: 767.98px) {
   .main-container {
     padding: 0;
     min-width: 320px;

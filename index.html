@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
         <main>
             <section class="filters-search">
                 <h1 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p class="section-subtitle">En plein centre-ville ou en pleine nature</p>
+                <p>En plein centre-ville ou en pleine nature</p>
                 <form class="localisation-search">
                     <div class="localisation-search-icon">
                         <i class="fa-solid fa-location-dot"></i>
@@ -244,8 +244,9 @@
                             </article>
                         </a>
                     </div>
+                </section>
             </div>
-            </section>
+
             <section id="activities" class="activities">
                 <h2 class="section-title">Activités à Marseille</h2>
                 <div class="activities-cards">
@@ -282,7 +283,11 @@
                     <a href="#">
                         <article class="card">
                             <img src="./images/activites/florian-wehde.jpg" alt="Notre-Dame de la Garde">
-                            <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                                </div>
+                            </div>
                         </article>
                     </a>
                 </div>
@@ -292,7 +297,7 @@
             <div class="footer-nav">
                 <div class="footer-column">
                     <h3 class="footer-title">À propos</h3>
-                    <ul class="footer-nav-a-propos">
+                    <ul>
                         <li><a href="#">Fonctionnement du site</a></li>
                         <li><a href="#">Conditions générales</a></li>
                         <li><a href="#">Données et confidentialité</a></li>
@@ -300,14 +305,14 @@
                 </div>
                 <div class="footer-column">
                     <h3 class="footer-title">Nos hébergements</h3>
-                    <ul class="footer-nav-nos-hebergements">
+                    <ul>
                         <li><a href="#">Charte qualité</a></li>
                         <li><a href="#">Proposer votre hôtel</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h3 class="footer-title">Assistance</h3>
-                    <ul class="footer-nav-assistance">
+                    <ul>
                         <li><a href="#">Centre d'aide</a></li>
                         <li><a href="#">Nous contacter</a></li>
                     </ul>
