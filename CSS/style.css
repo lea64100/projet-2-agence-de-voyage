@@ -121,7 +121,6 @@ header {
 .localisation-search-input {
   border: none;
   outline: none;
-  padding-left: 10px;
   font-size: 18px;
   font-weight: 700;
   flex-grow: 1;
