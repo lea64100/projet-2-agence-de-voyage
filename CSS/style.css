@@ -235,8 +235,8 @@ header {
 }
 
 .hebergements-cards a {
-  width: calc((100% - 60px) / 3);
   display: flex;
+  width: calc((100% - 60px) / 3);
 }
 
 .hebergements-cards .card {
@@ -258,10 +258,6 @@ header {
   padding: 8px 16px 0px 16px;
 }
 
-.hebergements-cards .card-rating {
-  margin: 8px 0;
-}
-
 .hebergements-cards .card-txt {
   display: flex;
   flex-direction: column;
@@ -271,6 +267,10 @@ header {
 .hebergements-cards .card-txt h3,
 .hebergements-cards .card-txt p {
   margin: 0;
+}
+
+.hebergements-cards .card-rating {
+  margin: 8px 0;
 }
 
 .hebergements-more {
